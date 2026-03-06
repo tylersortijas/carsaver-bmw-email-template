@@ -11,3 +11,5 @@ Visually, I kept the button treatment consistent in CarSaver blue (#004c91) so t
 For compatibility, I built in the usual safeguards that email clients still require. Outlook gets VML `v:roundrect` fallbacks through MSO conditional comments, so buttons render correctly even where CSS support is limited. I also added Gmail and Apple Mail data-detector overrides to stop clients from auto-linking random text like dates or phone numbers and breaking styling.
 
 Everything critical is inlined so the email still renders correctly in clients that strip embedded styles, and the template remains readable even with images turned off thanks to alt text and solid background styling. Finally, every link includes UTM parameters so performance can be tracked accurately no matter which CTA the user clicks.
+
+Thank you and I look forward to feedback!
